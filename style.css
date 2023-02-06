@@ -288,8 +288,18 @@ li:hover {
         max-height: 25px;
     }
     .reservation_form {
-        padding-top: 5px!important;
+        max-height: 90vh;
     }
+    .container-form {
+        margin-top: 2px!important;
+
+    }
+
+    .button-form{
+        margin-top: -20px!important;
+     
+    }
+
     .reservation_form h4 {
         margin: 0!important;
 
@@ -312,3 +322,11 @@ li:hover {
 
 }
 
+@media (max-height:600px){
+
+    .reservation_form{
+        height: 100vh;
+        width: 100%;
+        padding: 2px!important;
+    }
+}
